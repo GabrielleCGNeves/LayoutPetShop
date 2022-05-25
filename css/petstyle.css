@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+header{
+    text-align: center;
+    background-image: url('../img/fundo-topo.jpg');
+    padding: 10px 0;
+}
+
+header h1{
+    margin: 0;
+    height: 84px;
+}
+
+nav{
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 10px;
+    padding-right: 27px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover{
+    color: #6dd432;
+}
+
+.patinha {
+    display: inline;
+    background-image: url('../img/patinha-preta.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    margin-right: 10px;
+    padding-right: 27px;
+}
+
+
+.fundo-verde{
+    background-color: #bdff9c;
+}
+
+.container{
+    width: 900px;
+    margin: auto;
+    padding: 56px 0;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container .col{
+    width: 430px;
+}
+
+.texto-centralizado{
+    text-align: center;
+}
+
+.produtos{
+    width: 235px;
+}
+
+.produtos figure{
+    border: 1px solid #c4c4c4;
+    margin: 0 0 15px 0;
+    padding: 0;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+}
+
+.produtos figure img{
+    vertical-align: middle;
+}
+
+.btn-pata{
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+
+/* contato */
+
+.contato {
+    text-align: center;
+}
