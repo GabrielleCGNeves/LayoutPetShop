@@ -125,16 +125,9 @@ iframe{
     width: 100%;
 }
 
-hr{
-    height: 1px;
-    margin: 0 0 50px 340px;
-    width: 900px;
-    border-width:0;
-    background-color:#6dd432;
-}
-
-.copyright{
+footer.container{
     text-align: center;
     font-size: x-small;
-    margin-bottom: 50px;
+    border-top: 1px solid #6dd432;
+    padding: 15px 0px;
 }
