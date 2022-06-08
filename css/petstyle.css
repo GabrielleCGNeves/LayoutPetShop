@@ -118,6 +118,7 @@ form input, form textarea{
     border: 1px solid #6dd432;
     padding: 10px;
     margin: 5px 0 10px 0;
+    resize: none;
 }
 
 iframe{
